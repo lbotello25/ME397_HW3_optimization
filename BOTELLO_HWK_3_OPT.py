@@ -52,7 +52,7 @@ model.ESS_c             = Var(model.t, domain = NonNegativeReals)
 model.ESS_d             = Var(model.t, domain = NonNegativeReals)
 model.curt              = Var(model.t, domain = NonNegativeReals)
 
-# define objective function and contraints
+#define objective function and contraints
 
 # objective 
 def obj_expression(model):
